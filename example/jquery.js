@@ -7893,7 +7893,7 @@ var nodeHook, boolHook,
 jQuery.fn.extend({
 	attr: function( name, value ) {
 		return access( this, jQuery.attr, name, value, arguments.length > 1 );
-	}.deb('Testing args'),
+	},
 
 	removeAttr: function( name ) {
 		return this.each(function() {

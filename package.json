@@ -23,8 +23,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/krasimir/deb.js"
-  },
-  "scripts": {
-    "build": "uglifyjs ./lib/deb.js -o ./build/deb.min.js"
   }
 }

@@ -1,23 +1,19 @@
 var MyModule = function() {
-	var calculateSomething = function(cb) {
-		cb();
+	var field = $('#text');
+	var saySomething = function(what) {
+		field.html(what);
 	}.deb();
-	var testFunc = function() {
-		calculateSomething(function() {
-			var body = $('body');
-			body.attr('class', 'test');
-			console.log('body: ' + body.length);
-		});
+	var bold = function(str) {
+		saySomething('<b>' + str + '</b>');
 	}
 	return {
-		print: function() {
-			console.log('print executed');
-		},
 		run: function() {
-			var i = 0;
-			while(i++ < 100000000) {}
-			testFunc();
-			this.print();
-		}.deb()
+			$('[value="Hello"]').on('click', function() {
+				saySomething($(this).attr('value'));
+			});
+			$('[value="Goodbye"]').on('click', function() {
+				bold($(this).attr('value'));
+			});
+		}
 	}
 }
