@@ -1,0 +1,30 @@
+{
+  "name": "deb.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/krasimir/deb.js",
+  "description": "Minimalistic JavaScript library for debugging in the browser",
+  "author": {
+    "name": "Krasimir Tsonev",
+    "email": "info@krasimirtsonev.com",
+    "url": "http://krasimirtsonev.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    
+  },
+  "keywords": [
+    "javascript",
+    "browser",
+    "debugger"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krasimir/deb.js"
+  },
+  "scripts": {
+    "build": "uglifyjs ./lib/deb.js -o ./build/deb.min.js"
+  }
+}
