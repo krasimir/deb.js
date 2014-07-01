@@ -23,6 +23,12 @@ Open your console. You should see something like that:
 
 ![deb.js](http://work.krasimirtsonev.com/git/debjs/debjs.jpg)
 
+Use `.debc()` to collapse the output.
+
+## Articles
+
+[Deb.js: the Tiniest Debugger in the World](http://code.tutsplus.com/tutorials/debjs-the-tiniest-debugger-in-the-world--cms-21565)
+
 ## Build
 
 1. `npm install uglify-js -g`
