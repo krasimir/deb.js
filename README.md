@@ -1,7 +1,7 @@
 deb.js
 ======
 
-### 1.5K minimalistic JavaScript library for debugging in the browser
+### ~1.5K minimalistic JavaScript library for debugging in the browser
 
 ## Usage
 
