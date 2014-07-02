@@ -25,11 +25,26 @@ Open your console. You should see something like that:
 
 Use `.debc()` to collapse the output.
 
+## Deb.js as Chrome extension
+
+There is an extension for Chrome that injects `deb.min.js` in your page. All you have to do is to open [this url]() and add `debjs` somewhere in your URL. For example:
+
+	http://mysite.com/ <-- Deb.js is disabled
+	http://mysite.com/debjs <-- Deb.js is enabled
+	http://mysite.com?data=yes&prop=20&debjs <-- Deb.js is enabled
+
+
+Once you do that the extension will inject the file before your page's content and you will be able to use `.deb()` or `debc()` methods.
+
+Notice that if Deb.js is enabled you will see a small badge `ON` applied.
+
+![deb.js](http://work.krasimirtsonev.com/git/debjs/debjschrome.jpg)
+
 ## Articles
 
 [Deb.js: the Tiniest Debugger in the World](http://code.tutsplus.com/tutorials/debjs-the-tiniest-debugger-in-the-world--cms-21565)
 
 ## Build
 
-1. `npm install uglify-js -g`
-2. `sh ./build.sh`
+1. `npm install`
+2. `npm run build`

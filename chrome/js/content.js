@@ -1,0 +1,10 @@
+if(location.search.indexOf('debjs') >= 0) {
+    var s = document.createElement('script');
+	s.setAttribute('type', 'text/javascript');
+	s.innerHTML = '!function(o,n){"function"==typeof define&&define.amd?define([],n):n()}(this,function(){Function.prototype.debc=function(o){return Function.prototype.deb.apply(this,[o,!0])},Function.prototype.deb=function(o,n){var t,e=function(){return"rgb("+(Math.floor(76*Math.random())+200)+","+(Math.floor(76*Math.random())+200)+","+(Math.floor(76*Math.random())+200)+")"},r=function(o,e,r){"undefined"!=typeof console&&(s&&"string"==typeof o?console[e?n?"groupCollapsed":"group":"log"]("%c"+o,"background:"+t+";"+r):console[e?"group":"log"](o))},i=function(){"undefined"!=typeof console&&console.groupEnd()},c=function(n,t,e){var c=e.toString().match(/^function\s*[^\(]*\(\s*([^\)]*)\)/m)[0];0===n[0].indexOf("Error")&&(n=n.slice(1));var f="{ "+(n[1]?n[1].trim():"");if(r(o+c+" "+f,a),t&&t.length>0){r("arguments:",!0);for(var u=0;u<t.length;u++){var s="function"==typeof t[u]?"function":t[u];r(s,!1,"color:#727272;font-size:10px;")}i()}if(n&&n.length>1){r("stack trace:",!0);for(var u=1;u<n.length;u++)r("  "+n[u].trim(),!1,"color:#727272;font-size:10px;");i()}},f=function(o,n){r("  returns: "+("function"==typeof n?"function":n)),r("  duration: "+(Date.now()-o)+"ms"),r("}"),a&&i()},u=this,o=o?o+": ":"",a=console&&console.group&&console.groupEnd,s=navigator.userAgent.toLowerCase().indexOf("chrome")>-1;return function(){t=e();var o=Date.now();c((new Error).stack.split(new RegExp("\\n")),arguments,u);var n=u.apply(this,Array.prototype.slice.call(arguments,0));return f(o,n),n}}});';
+	var root = document.head || document.documentElement;
+	root.insertBefore(s, root.firstChild);
+	chrome.runtime.sendMessage({ debjs: {status: true}}, function(response) {});
+} else {
+	chrome.runtime.sendMessage({ debjs: {status: false}}, function(response) {});
+}
