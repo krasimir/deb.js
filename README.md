@@ -27,7 +27,7 @@ Use `.debc()` to collapse the output.
 
 ## Deb.js as Chrome extension
 
-There is an extension for Chrome that injects `deb.min.js` in your page. All you have to do is to open [this url]() and add `debjs` somewhere in your URL. For example:
+There is an extension for Chrome that injects `deb.min.js` in your page. All you have to do is to open [this url](https://chrome.google.com/webstore/detail/debjs/egmeoknjmgikkkcdicmajkbkmkcmbiah) and add `debjs` somewhere in your URL. For example:
 
 	http://mysite.com/ <-- Deb.js is disabled
 	http://mysite.com/debjs <-- Deb.js is enabled
