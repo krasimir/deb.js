@@ -1,13 +1,11 @@
 deb.js
 ======
 
-A library that:
+### ~1.5K minimalistic JavaScript library for debugging in the browser
 
 * works on functional level
-* groups your `console.log` statements and place them in the right context
-* displays stack trace, passed arguments and execution time
-
-### ~1.5K minimalistic JavaScript library for debugging in the browser
+* groups your `console.log` statements and place them in a proper context
+* displays stack traces, passed arguments and execution time
 
 ## Usage
 
