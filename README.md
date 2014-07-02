@@ -1,6 +1,12 @@
 deb.js
 ======
 
+A library that:
+
+* works on functional level
+* groups your `console.log` statements and place them in the right context
+* displays stack trace, passed arguments and execution time
+
 ### ~1.5K minimalistic JavaScript library for debugging in the browser
 
 ## Usage
@@ -46,6 +52,12 @@ Notice that if Deb.js is enabled you will see a small badge `ON` applied.
 ## Articles
 
 [Deb.js: the Tiniest Debugger in the World](http://code.tutsplus.com/tutorials/debjs-the-tiniest-debugger-in-the-world--cms-21565)
+
+## Preview
+
+Here is an animated gif that demonstrates how Deb.js outputs information about the executed function. 
+
+![deb.js](http://work.krasimirtsonev.com/git/debjs/debjs_05.gif)
 
 ## Build
 
