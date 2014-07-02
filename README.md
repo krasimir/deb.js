@@ -38,7 +38,7 @@ Once you do that the extension will inject the file before your page's content a
 
 Notice that if Deb.js is enabled you will see a small badge `ON` applied.
 
-![deb.js](http://work.krasimirtsonev.com/git/debjs/debjschrome.jpg)
+![deb.js](http://work.krasimirtsonev.com/git/debjs/debjschrome.png)
 
 ## Articles
 
