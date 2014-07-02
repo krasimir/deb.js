@@ -34,6 +34,7 @@ There is an extension for Chrome that injects `deb.min.js` in your page. All you
 	http://mysite.com/ <-- Deb.js is disabled
 	http://mysite.com/debjs <-- Deb.js is enabled
 	http://mysite.com?data=yes&prop=20&debjs <-- Deb.js is enabled
+	http://mysite.com?key=valuedebjs <-- Deb.js is enabled
 
 
 Once you do that the extension will inject the file before your page's content and you will be able to use `.deb()` or `debc()` methods.
