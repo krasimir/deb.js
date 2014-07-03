@@ -1,4 +1,4 @@
-if(location.search.indexOf('debjs') >= 0) {
+if(/\bdebjs\b/.test(location.search)) {
     var s = document.createElement('script');
 	s.setAttribute('type', 'text/javascript');
 	s.innerHTML = '{debjs}';

@@ -36,9 +36,7 @@ Use `.debc()` to collapse the output.
 There is an extension for Chrome that injects `deb.min.js` in your page. All you have to do is to open [this url](https://chrome.google.com/webstore/detail/debjs/egmeoknjmgikkkcdicmajkbkmkcmbiah) and add `debjs` somewhere in your URL. For example:
 
 	http://mysite.com/ <-- Deb.js is disabled
-	http://mysite.com/debjs <-- Deb.js is enabled
 	http://mysite.com?data=yes&prop=20&debjs <-- Deb.js is enabled
-	http://mysite.com?key=valuedebjs <-- Deb.js is enabled
 
 
 Once you do that the extension will inject the file before your page's content and you will be able to use `.deb()` or `debc()` methods.
