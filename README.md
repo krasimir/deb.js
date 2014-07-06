@@ -33,7 +33,7 @@ Use `.debc()` to collapse the output.
 
 [Deb.js in Google Web Store](https://chrome.google.com/webstore/detail/debjs/egmeoknjmgikkkcdicmajkbkmkcmbiah)
 
-There is an extension for Chrome that injects `deb.min.js` in your page. All you have to do install the extension from [here](https://chrome.google.com/webstore/detail/debjs/egmeoknjmgikkkcdicmajkbkmkcmbiah) and click on the icon in the upper right corner.
+There is extension for Chrome that injects `deb.min.js` into your page. All you have to do is to install the extension from [here](https://chrome.google.com/webstore/detail/debjs/egmeoknjmgikkkcdicmajkbkmkcmbiah) and click the icon in the upper right corner.
 
 Once you do that the extension will inject the file before your page's content and you will be able to use `.deb()` or `debc()` methods.
 
