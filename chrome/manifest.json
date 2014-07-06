@@ -9,11 +9,10 @@
             "19": "img/icon19.png",
             "38": "img/icon38.png"
         },
-        "default_title": "Deb.js",
-        "default_popup": "popup.html"
+        "default_title": "Deb.js"
     },
     "permissions": [
-        "activeTab", "tabs", "storage"
+        "activeTab"
     ],
     "background": {
         "scripts": ["js/background.js"],
@@ -21,7 +20,7 @@
     },
     "content_scripts": [
         {
-            "matches": ["http://*/*", "https://*/*"], 
+            "matches": ["http://*/*", "https://*/*"],
             "js": ["js/content.js"],
             "run_at": "document_start"
         }
