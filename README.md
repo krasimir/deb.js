@@ -47,7 +47,7 @@ To install the library via Bower just run:
 bower install deb.js
 ```
 
-The file that you want probably want to use is `/bower_components/deb.js/build/deb.min.js`.
+The file that you probably want to use is `/bower_components/deb.js/build/deb.min.js`.
 
 ## Articles
 
