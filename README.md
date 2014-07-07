@@ -15,7 +15,7 @@ Add `deb.min.js` at the top of your page. Before every other script file.
 <script src="deb.min.js"></script>
 ```
 
-Add `.deb()` After the definition if your functions.
+Add `.deb()` After the definition of your functions.
 
 ```js
 var calculateSomething = function(cb) {
