@@ -59,7 +59,15 @@ Here is an animated gif that demonstrates how Deb.js outputs information about t
 
 ![deb.js](http://work.krasimirtsonev.com/git/debjs/debjs_05.gif)
 
-## Build
+## Building
 
 1. `npm install`
 2. `npm run build`
+
+## Contributers
+
+* [Krasimir Tsonev](http://krasimirtsonev.com/)
+* [Tyler Eich](https://github.com/TylerEich)
+* [The Code Destroyer](https://github.com/TheCodeDestroyer)
+* [Valentin Zwick](https://github.com/vzwick)
+* [kshirish](https://github.com/kshirish)
