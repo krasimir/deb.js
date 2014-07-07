@@ -51,8 +51,8 @@ The file that you want probably want to use is `/bower_components/deb.js/build/d
 
 ## Articles
 
-[Deb.js: the Tiniest Debugger in the World](http://code.tutsplus.com/tutorials/debjs-the-tiniest-debugger-in-the-world--cms-21565)
-[Deb.js: самый крохотный отладчик в мире](http://habrahabr.ru/post/228819/)
+* [Deb.js: the Tiniest Debugger in the World](http://code.tutsplus.com/tutorials/debjs-the-tiniest-debugger-in-the-world--cms-21565)
+* [Deb.js: самый крохотный отладчик в мире](http://habrahabr.ru/post/228819/)
 
 ## Preview
 
