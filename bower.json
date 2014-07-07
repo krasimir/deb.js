@@ -1,0 +1,22 @@
+{
+    "name": "deb.js",
+    "description": "Minimalistic JavaScript library for debugging in the browser.",
+    "version": "0.0.1",
+    "license": "MIT",
+    "_source": "git://github.com/krasimir/deb.js.git",
+    "homepage": "https://github.com/krasimir/deb.js",
+    "main": "build/deb.min.js",
+    "keywords": [
+        "javascript",
+        "js",
+        "lib",
+        "debug",
+        "browser",
+        "debugger"
+    ],
+    "ignore": [
+        "/.*",
+        "chrome",
+        "example"
+    ]
+}
