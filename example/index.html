@@ -39,7 +39,7 @@
                         cb({msg: 'Missing data'});
                     }
                     return 'collected';
-                }.debc(),
+                }.deb(),
                 error: function(err) {
                     $('[data-element="output"]').html(err.msg);
                 },
@@ -57,7 +57,8 @@
                         } else {
                             Module.success(data);
                         }
-                    }.debc('My buggy function'));
+                        return function(a, b) { };
+                    }.deb('My buggy function'));
                 });
             }
 
