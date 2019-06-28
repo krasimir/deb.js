@@ -39,7 +39,7 @@ Once you do that the extension will inject the file before your page's content a
 
 ![deb.js](http://work.krasimirtsonev.com/git/debjs/debjschrome.png)
 
-## Deb.js is availble in Bower too
+## Deb.js is available in Bower too
 
 To install the library via Bower just run:
 
